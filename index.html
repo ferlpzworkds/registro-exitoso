@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Registro Exitoso en RequiSoftware!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #007bff; /* Azul brillante, similar a los botones de tu sistema */
+            --primary-dark-color: #0056b3;
+            --success-color: #28a745; /* Verde para éxito */
+            --text-color-dark: #1f2937; /* Gris oscuro para textos principales */
+            --text-color-light: #4b5563; /* Gris medio para textos secundarios */
+            --bg-light-gray: #f9fafb; /* Fondo claro */
+            --bg-medium-gray: #e5e7eb; /* Bordes y separadores */
+            --bg-white: #ffffff;
+            --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --border-radius-md: 0.5rem; /* 8px */
+        }
+
+        body {
+            font-family: 'Inter', sans-serif; /* Fuente moderna y legible */
+            background-color: var(--bg-light-gray);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: var(--text-color-dark);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            max-width: 500px; /* Un poco más estrecho para un look moderno */
+            width: 90%; /* Responsivo */
+            background-color: var(--bg-white);
+            padding: 2.5rem; /* 40px */
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-light);
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .header {
+            margin-bottom: 2rem; /* 32px */
+        }
+
+        .header img {
+            max-width: 120px; /* Tamaño del logo ajustado */
+            height: auto;
+            margin: 0 auto; /* Centrar la imagen */
+            display: block;
+        }
+
+        .content h1 {
+            color: var(--primary-color);
+            font-size: 2rem; /* 32px */
+            font-weight: 700; /* Semibold */
+            margin-bottom: 1rem; /* 16px */
+        }
+
+        .content p {
+            font-size: 1rem; /* 16px */
+            color: var(--text-color-light);
+            margin-bottom: 1rem;
+        }
+
+        .icon-success {
+            font-size: 4rem; /* 64px */
+            color: var(--success-color);
+            margin-bottom: 1.5rem; /* 24px */
+            display: block;
+            line-height: 1; /* Eliminar espacio extra */
+        }
+
+        .button-container {
+            margin-top: 2rem; /* 32px */
+            margin-bottom: 1.5rem;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: #ffffff !important; /* Asegurar color blanco */
+            padding: 0.75rem 1.5rem; /* 12px 24px */
+            border-radius: var(--border-radius-md);
+            text-decoration: none;
+            font-weight: 600; /* Semibold */
+            font-size: 1.05rem; /* Un poco más grande que el texto base */
+            transition: background-color 0.2s ease-in-out;
+            border: none; /* Eliminar borde por defecto */
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: var(--primary-dark-color);
+        }
+
+        .footer {
+            margin-top: 2rem; /* 32px */
+            font-size: 0.875rem; /* 14px */
+            color: var(--text-color-light);
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--bg-medium-gray); /* Línea de separación suave */
+        }
+
+        .footer p {
+            margin: 0.5rem 0;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.2s ease-in-out;
+        }
+
+        a:hover {
+            color: var(--primary-dark-color);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://pckbdperupovxrniubrl.supabase.co/storage/v1/object/public/images//LOGO_CIEC.png" alt="Logo Cámara de Industriales del Estado Carabobo">
+        </div>
+        <div class="content">
+            <span class="icon-success">&#10003;</span>
+            <h1>¡Tu registro ha sido exitoso!</h1>
+            <p>Estimado(a) trabajador(a),</p>
+            <p>Queremos confirmarte que tu cuenta en **RequiSoftware** ha sido creada y verificada correctamente.</p>
+            <p>¡Bienvenido(a) a la plataforma! Ya puedes acceder al sistema y empezar a gestionar tus solicitudes y órdenes de compra de la **Cámara de Industriales del Estado Carabobo**.</p>
+            <div class="button-container">
+                <a href="TU_URL_DE_ACCESO_AL_SISTEMA" class="button">Ir a RequiSoftware</a>
+            </div>
+            <p>Si tienes alguna pregunta o necesitas asistencia, no dudes en contactarnos.</p>
+            <p>Saludos cordiales,</p>
+            <p>El equipo de RequiSoftware</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2025 Cámara de Industriales del Estado Carabobo.</p>
+            <p>Valencia, Carabobo, Venezuela.</p>
+        </div>
+    </div>
+</body>
+</html>
